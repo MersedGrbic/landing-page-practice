@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Abyssinica SIL', serif;
+    color: #FFFFFF;
+    background: #354147;
+            }
+
+.background{
+    position: relative;
+    background-image: url(/landing-page-practice/images/matt-gross-Z9e3d69XxWk-unsplash.jpg);
+    background-size:100% 70%;
+    background-repeat: no-repeat;
+    max-width: 3000px;
+    width: 100%;
+    max-width: 3000px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #354147;
+}
+.background--linear{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    
+   background: linear-gradient(180deg, rgba(241,4,4,0) 37%, rgba(53,65,71,1) 80%);
+   }
+
+.header{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 15px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14x;
+    -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+}
+.header p{
+    margin:0;
+}
+.header-about{
+    justify-self: center;
+    display: flex;
+    gap: 10px;
+    
+}
+.header .logo{
+    margin: 0;
+    
+    font-family: 'Abyssinica SIL', serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.612);
+}
+
+.main--one{
+    margin-top: 120px;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+.main--section{
+    
+    align-self: center;
+
+
+}
+.guide{
+    color: #FBD784;
+    font-weight:800;
+    
+    
+}
+.text{
+    font-size: 44px;
+    color: #ffffff;
+}
+.contact--info{
+    font-size: 15px;
+    display: flex;
+    
+    list-style: none;
+    transform: rotate(90deg);
+ 
+}
